@@ -1,0 +1,19 @@
+{
+  "name": "dz6_cy_books",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "test:ChromeNB": "cypress run --browser chrome --headed --config-file cypress.config.NB.js",
+    "test:ChromeMobile": "cypress run --browser chrome --headless --config-file cypress.config.mobile.js",
+    "test:EdgeNB": "cypress run --browser edge --headed --config-file cypress.config.NB.js",
+    "test:FirefoxMobile": "cypress run --browser firefox --headed --config-file cypress.config.mobile.js"
+  },
+  "keywords": [],
+  "author": "BSA",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.11.0"
+  }
+}
